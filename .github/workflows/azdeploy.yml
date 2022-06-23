@@ -32,4 +32,15 @@ jobs:
           template: ./arm-templates/rg.json
           deploymentName: rg-GitHub-Deploy
 
+      - name: Deploy SA using ARM Template GitHub Action
+        uses: Azure/arm-deploy@v1
+        with:
+          scope: resourcegroup
+          resourceGroupName: rg-GitHub
+          subscriptionId: d86c85ff-5c6c-4054-bc3c-b549ca9f2795
+          template: ./arm-templates/storageaccount.json
+          parameters: ./arm-templates/storageaccount.parameters.json
+          deploymentName: SA-DeployARM-Action
+          deploymentMode: incremental
+
 
