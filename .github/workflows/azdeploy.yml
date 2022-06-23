@@ -27,5 +27,5 @@ jobs:
         uses: Azure/cli@v1
         with:
           inlinescript: |
-            az deployment sub create --location "eastus" --template-file ./arm-templates/resourceGroup.json
+            az deployment sub create --location "eastus" --template-file ./arm-templates/rg.json
 
