@@ -30,6 +30,6 @@ jobs:
           subscriptionId: d86c85ff-5c6c-4054-bc3c-b549ca9f2795
           region: eastus
           template: ./arm-templates/rg.json
-          deploymentName: rg-GitHub Deploy
+          deploymentName: rg-GitHub-Deploy
 
 
