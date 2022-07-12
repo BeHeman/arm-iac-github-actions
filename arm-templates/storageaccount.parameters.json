@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "heman110077"
+            "value": "hemanaz400"
         },
         "location": {
             "value": "eastus" 
