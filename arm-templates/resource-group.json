@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter the location for the RG"
+            },
+            "defaultValue": "eastus"
+        },
+        "rgName": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter the name of the RG"
+            },
+            "defaultValue": "rg-az-400"
+        }
+    },
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "name": "[parameters('rgName')]",
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2021-05-01",
+            "location": "[parameters('location')]",
+            "dependsOn": [],
+            "tags": {}
+        }
+    ],
+    "outputs": {}
+}
