@@ -29,7 +29,7 @@ jobs:
           scope: subscription
           subscriptionId: d86c85ff-5c6c-4054-bc3c-b549ca9f2795
           region: eastus
-          template: ./arm-templates/rg.json
+          template: ./arm-templates/resource-group.json
           deploymentName: rg-GitHub-Deploy
 
       - name: Deploy SA using ARM Template GitHub Action
