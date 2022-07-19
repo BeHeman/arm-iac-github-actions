@@ -42,7 +42,7 @@ jobs:
           parameters: 
             ./arm-templates/storageaccount.parameters.json
             storageAccountName="hemanaz401"
-            location= "eastus"
+            location= "EAST US"
           deploymentName: SA-DeployARM-Action
           deploymentMode: incremental
 
