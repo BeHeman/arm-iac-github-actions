@@ -36,12 +36,12 @@ jobs:
         uses: Azure/arm-deploy@v1
         with:
           scope: resourcegroup
-          resourceGroupName: rg-GitHub
+          resourceGroupName: rg-Az400Actions
           subscriptionId: 0686c555-7098-4104-99f1-8196d05f882e
           template: ./arm-templates/storageaccount.json
           parameters: 
             ./arm-templates/storageaccount.parameters.json
-            storageAccountName="hikumasa101"
+            storageAccountName="hikumaaz400-sa1310"
           deploymentName: SA-DeployARM-Action
           deploymentMode: incremental
 
