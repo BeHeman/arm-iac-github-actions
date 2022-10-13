@@ -41,7 +41,7 @@ jobs:
           template: ./arm-templates/storageaccount.json
           parameters: 
             ./arm-templates/storageaccount.parameters.json
-            storageAccountName="hikumaaz400-sa1310"
+            storageAccountName="hikumaaz400sa1310"
           deploymentName: SA-DeployARM-Action
           deploymentMode: incremental
 
