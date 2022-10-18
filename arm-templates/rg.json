@@ -14,7 +14,7 @@
             "metadata": {
                 "description": "Enter the Name of the RG"
             },
-            "defaultValue": "rg-Az400Actions"
+            "defaultValue": "rg-Az104-ARM"
         }
     },
     "functions": [],
