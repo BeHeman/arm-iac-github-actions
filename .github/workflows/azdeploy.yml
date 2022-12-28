@@ -29,14 +29,14 @@ jobs:
           scope: subscription
           subscriptionId: 0686c555-7098-4104-99f1-8196d05f882e
           region: eastus
-          template: ./arm-templates/rg.json
+          template: ./arm-templates/az400rg.json
           deploymentName: rg-GitHub-Deploy
 
       - name: Deploy SA using ARM Template GitHub Action
         uses: Azure/arm-deploy@v1
         with:
           scope: resourcegroup
-          resourceGroupName: rg-Az104-ARM
+          resourceGroupName: Az-400-RG2812
           subscriptionId: 0686c555-7098-4104-99f1-8196d05f882e
           template: ./arm-templates/storageaccount.json
           parameters: 
