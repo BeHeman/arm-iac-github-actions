@@ -30,6 +30,7 @@ jobs:
           subscriptionId: 0686c555-7098-4104-99f1-8196d05f882e
           region: eastus
           template: ./arm-templates/az400rg.json
+          parameters: ./arm-templates/az400rg.parameters.json
           deploymentName: rg-GitHub-Deploy
 
       - name: Deploy SA using ARM Template GitHub Action
